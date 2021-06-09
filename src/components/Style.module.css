@@ -1,0 +1,45 @@
+.wrapper {
+  margin: 0 auto;
+  border: 1px solid black;
+  width: 700px;
+  text-align: center;
+}
+.header_wrapp {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+.btn {
+  margin-left: 290px;
+  width: 160px;
+}
+
+.filter {
+  width: 100px;
+  border: blue;
+  padding-bottom: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.item {
+  width: 500px;
+  height: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border: 1px blue;
+  background-color: burlywood;
+}
